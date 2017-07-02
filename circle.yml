@@ -11,7 +11,6 @@ dependencies:
     - mkdir tmp
     - echo $SERVER_KEY_HEX | xxd -r -ps >> tmp/server.key
     - openssl rsa -in tmp/server.key -check -noout
-	- sfdx update
     - sfdx force:auth:jwt:grant --clientid $CONSUMER_KEY --jwtkeyfile tmp/server.key --username $SFDC_USER --setdefaultdevhubusername -a HubOrg
 
 test:
