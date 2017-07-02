@@ -1,9 +1,9 @@
 {
-  "Company": "Kevin O'Hara Enterprises",
-  "Country": "US",
-  "LastName": "O'Hara",
-  "Email": "kevin@xyz.com",
-  "Edition": "Developer",
+  "Company": "VivaReal",
+  "Country": "BR",
+  "LastName": "David",
+  "Email": "iago.santos@vivareal.com",
+  "Edition": "Enterprise",
   "OrgPreferences": {
     "S1DesktopEnabled": true
   }
