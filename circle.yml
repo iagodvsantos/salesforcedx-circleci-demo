@@ -20,6 +20,6 @@ test:
   override:
     - sfdx force:org:create -v HubOrg -s -f config/project-scratch-def.json -a circle_build_$CIRCLE_BUILD_NUM
     - sfdx force:source:push -u circle_build_$CIRCLE_BUILD_NUM
-    - sfdx force:apex:test:run -u ciorg -c -r human
+    - sfdx force:apex:test:run -u circle_build_$CIRCLE_BUILD_NUM -c -r human
     - sleep 1m
     - sfdx force:org:delete -u circle_build_$CIRCLE_BUILD_NUM -p
