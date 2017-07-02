@@ -1,0 +1,7 @@
+{
+    "orgName": "VivaReal",
+    "edition": "Enterprise",
+    "orgPreferences" : {
+        "enabled": ["S1DesktopEnabled"]
+    }
+}
